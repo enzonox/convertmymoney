@@ -1,0 +1,12 @@
+<%- include('header') %>
+<div class="result">
+    <% if(error){ %>
+        <a href='/'><%= error + '. Clique aqui para voltar' %></a>
+        <a href='/'></a>
+    <% }else{ %>
+        <%= quantidade%> dolares na Cotação: <%= cotacao %>
+         é igual a R$<%= conversao%> Reais
+    <% } %>
+</div>
+
+<%- include('footer') %>
