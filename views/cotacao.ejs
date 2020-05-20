@@ -4,8 +4,11 @@
         <a href='/'><%= error + '. Clique aqui para voltar' %></a>
         <a href='/'></a>
     <% }else{ %>
-        <%= quantidade%> dolares na Cotação: <%= cotacao %>
-         é igual a R$<%= conversao%> Reais
+    <p>
+        Cotação do dolar é: <strong>$<%= cotacao %></strong> <br>
+		Quantidade de dolar é: <strong>$<%= quantidade %></strong> <br>
+		Total convertidos em Reais: <strong>R$<%= conversao %></strong>
+    </p>
     <% } %>
 </div>
 

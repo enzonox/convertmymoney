@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node index.js"
+    "start": "node .",
+    "test": "jest"
   },
   "author": "Enzo Leça",
   "license": "ISC",

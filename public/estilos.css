@@ -19,10 +19,28 @@ button {
     border: 1px solid #000000;
     background: #D8D8D8;
     font-size: 20px;
-    padding: 10px
+    padding: 10px;
+    margin: 5px
 }
 
 .result {
-    border: 1px solid #000000;
     background: #fdfdfd;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.result p {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(218, 214, 214);
+    color: #000;
+    padding: 20px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    
 }
