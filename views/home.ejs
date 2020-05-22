@@ -1,6 +1,6 @@
 <%- include('header') %>
 <form class='formulario' method="GET" action="/cotacao">
-    <input type="number" min="1" step="any" name="cotacao" placeholder="Cotação do Dolar"><br>
+    <input type="number" min="1" step="any" name="cotacao" placeholder="Cotação do Dolar" value="<%=cotacao%>"><br>
     <input type="number" min="1" step="any" name="quantidade" placeholder="Valor em Dolar"><br>
     <button>Converter valor em Reais!</button>
 </form>
